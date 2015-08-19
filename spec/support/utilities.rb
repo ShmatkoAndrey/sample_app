@@ -19,4 +19,5 @@ def full_title(page_title)
       click_button "Sign in"
     end
   end
+
 end
