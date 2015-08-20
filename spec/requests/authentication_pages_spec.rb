@@ -74,6 +74,7 @@ describe "Authentication" do
       end
 
       describe "in the Users controller" do
+
         describe "visiting the edit page" do
           before { visit edit_user_path(user) }
           it { should have_title('Sign in') }
@@ -88,7 +89,19 @@ describe "Authentication" do
           before { visit users_path }
           it { should have_title('Sign in') }
         end
+
+        describe "visiting the following page" do
+          before { visit following_user_path(user) }
+          it { should have_title('Sign in') }
+        end
+
+        describe "visiting the followers page" do
+          before { visit followers_user_path(user) }
+          it { should have_title('Sign in') }
+        end
+
       end
+
     end
 
     describe "as wrong user" do
@@ -98,7 +111,7 @@ describe "Authentication" do
 
       describe "submitting a GET request to the Users#edit action" do
         before { get edit_user_path(wrong_user) }
-        #specify { expect(response.body).not_to match(full_title('Edit user')) }
+       # specify { expect(response.body).not_to match(full_title('Edit user')) }
         specify { expect(response).to redirect_to(root_url) }
       end
 
