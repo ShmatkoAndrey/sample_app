@@ -2,35 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38eeb067-4903-4def-b73b-eef8c90ba585" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/_follow.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/_stats.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/_unfollow.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/show_follow.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/relationships/create.js.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/relationships/destroy.js.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/relationships_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/controllers/relationships_controller_spec.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/shared/_follow_form.html.erb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20150813132736_create_users.rb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20150814083728_add_index_to_users_email.rb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20150814085314_add_password_digest_to_users.rb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20150818082711_add_remember_token_to_users.rb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20150818114930_add_admin_to_users.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_micropost_form.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_micropost_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_user_info.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_user_info.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/_follow.html.erb" afterPath="$PROJECT_DIR$/app/views/users/_follow.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/_unfollow.html.erb" afterPath="$PROJECT_DIR$/app/views/users/_unfollow.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/requests/authentication_pages_spec.rb" afterPath="$PROJECT_DIR$/spec/requests/authentication_pages_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories.rb" afterPath="$PROJECT_DIR$/spec/factories.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/micropost.rb" afterPath="$PROJECT_DIR$/app/models/micropost.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/requests/micropost_pages_spec.rb" afterPath="$PROJECT_DIR$/spec/requests/micropost_pages_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/micropost_spec.rb" afterPath="$PROJECT_DIR$/spec/models/micropost_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/microposts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/microposts_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/sample_data.rake" afterPath="$PROJECT_DIR$/lib/tasks/sample_data.rake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/show.html.erb" afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/requests/static_pages_spec.rb" afterPath="$PROJECT_DIR$/spec/requests/static_pages_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/requests/user_pages_spec.rb" afterPath="$PROJECT_DIR$/spec/requests/user_pages_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/user_spec.rb" afterPath="$PROJECT_DIR$/spec/models/user_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sample_app.iws" />
@@ -59,155 +47,115 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="authentication_pages_spec.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/requests/authentication_pages_spec.rb">
+      <file leaf-file-name="user_spec.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7768421">
-              <caret line="113" column="8" selection-start-line="113" selection-start-column="8" selection-end-line="113" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="164" column="7" selection-start-line="164" selection-start-column="7" selection-end-line="164" selection-end-column="7" />
               <folding>
-                <element signature="e#98#222#0" expanded="false" />
-                <element signature="e#112#133#0" expanded="false" />
-                <element signature="e#142#176#0" expanded="false" />
-                <element signature="e#184#216#0" expanded="false" />
-                <element signature="e#244#640#0" expanded="false" />
-                <element signature="e#258#279#0" expanded="false" />
-                <element signature="e#321#634#0" expanded="false" />
-                <element signature="e#337#363#0" expanded="false" />
-                <element signature="e#374#406#0" expanded="false" />
-                <element signature="e#416#465#0" expanded="false" />
-                <element signature="e#512#626#0" expanded="false" />
-                <element signature="e#530#551#0" expanded="false" />
-                <element signature="e#563#616#0" expanded="false" />
-                <element signature="e#678#1125#0" expanded="false" />
-                <element signature="e#696#725#0" expanded="false" />
-                <element signature="e#737#753#0" expanded="false" />
-                <element signature="e#762#794#0" expanded="false" />
-                <element signature="e#802#855#0" expanded="false" />
-                <element signature="e#863#921#0" expanded="false" />
-                <element signature="e#929#992#0" expanded="false" />
-                <element signature="e#1000#1055#0" expanded="false" />
-                <element signature="e#1063#1117#0" expanded="false" />
-                <element signature="e#1294#1692#0" expanded="false" />
-                <element signature="e#1349#1472#0" expanded="false" />
-                <element signature="e#1369#1393#0" expanded="false" />
-                <element signature="e#1412#1460#0" expanded="false" />
-                <element signature="e#1526#1682#0" expanded="false" />
-                <element signature="e#1546#1603#0" expanded="false" />
-                <element signature="e#1622#1670#0" expanded="false" />
-                <element signature="e#1753#2140#0" expanded="false" />
-                <element signature="e#1771#1952#0" expanded="false" />
-                <element signature="e#1990#2130#0" expanded="false" />
-                <element signature="e#2050#2118#0" expanded="false" />
-                <element signature="e#3430#3475#0" expanded="false" />
-                <element signature="e#3558#3679#0" expanded="false" />
-                <element signature="e#3576#3607#0" expanded="false" />
-                <element signature="e#3624#3669#0" expanded="false" />
+                <element signature="e#50#181#0" expanded="false" />
+                <element signature="e#193#202#0" expanded="false" />
+                <element signature="e#209#237#0" expanded="false" />
+                <element signature="e#243#272#0" expanded="false" />
+                <element signature="e#278#317#0" expanded="false" />
+                <element signature="e#323#355#0" expanded="false" />
+                <element signature="e#361#406#0" expanded="false" />
+                <element signature="e#412#450#0" expanded="false" />
+                <element signature="e#456#492#0" expanded="false" />
+                <element signature="e#498#527#0" expanded="false" />
+                <element signature="e#533#567#0" expanded="false" />
+                <element signature="e#573#601#0" expanded="false" />
+                <element signature="e#607#644#0" expanded="false" />
+                <element signature="e#650#688#0" expanded="false" />
+                <element signature="e#694#739#0" expanded="false" />
+                <element signature="e#745#778#0" expanded="false" />
+                <element signature="e#784#818#0" expanded="false" />
+                <element signature="e#824#855#0" expanded="false" />
+                <element signature="e#863#882#0" expanded="false" />
+                <element signature="e#888#910#0" expanded="false" />
+                <element signature="e#960#1064#0" expanded="false" />
+                <element signature="e#974#1030#0" expanded="false" />
+                <element signature="e#1039#1058#0" expanded="false" />
+                <element signature="e#1104#1175#0" expanded="false" />
+                <element signature="e#1118#1138#0" expanded="false" />
+                <element signature="e#1146#1169#0" expanded="false" />
+                <element signature="e#1216#1288#0" expanded="false" />
+                <element signature="e#1230#1251#0" expanded="false" />
+                <element signature="e#1259#1282#0" expanded="false" />
+                <element signature="e#1325#1401#0" expanded="false" />
+                <element signature="e#1339#1364#0" expanded="false" />
+                <element signature="e#1372#1395#0" expanded="false" />
+                <element signature="e#1445#1741#0" expanded="false" />
+                <element signature="e#1475#1735#0" expanded="false" />
+                <element signature="e#1621#1727#0" expanded="false" />
+                <element signature="e#1783#2025#0" expanded="false" />
+                <element signature="e#1811#2019#0" expanded="false" />
+                <element signature="e#1913#2011#0" expanded="false" />
+                <element signature="e#2076#2263#0" expanded="false" />
+                <element signature="e#2090#2225#0" expanded="false" />
+                <element signature="e#2234#2257#0" expanded="false" />
+                <element signature="e#2307#2412#0" expanded="false" />
+                <element signature="e#2321#2375#0" expanded="false" />
+                <element signature="e#2383#2406#0" expanded="false" />
+                <element signature="e#2468#2563#0" expanded="false" />
+                <element signature="e#2482#2526#0" expanded="false" />
+                <element signature="e#2534#2557#0" expanded="false" />
+                <element signature="e#2611#2718#0" expanded="false" />
+                <element signature="e#2625#2683#0" expanded="false" />
+                <element signature="e#2691#2712#0" expanded="false" />
+                <element signature="e#2769#3215#0" expanded="false" />
+                <element signature="e#2783#2797#0" expanded="false" />
+                <element signature="e#2819#2855#0" expanded="false" />
+                <element signature="e#2892#2965#0" expanded="false" />
+                <element signature="e#2904#2957#0" expanded="false" />
+                <element signature="e#3004#3209#0" expanded="false" />
+                <element signature="e#3045#3083#0" expanded="false" />
+                <element signature="e#3094#3137#0" expanded="false" />
+                <element signature="e#3152#3201#0" expanded="false" />
+                <element signature="e#3245#3328#0" expanded="false" />
+                <element signature="e#3259#3273#0" expanded="false" />
+                <element signature="e#3299#3322#0" expanded="false" />
+                <element signature="e#3681#3768#0" expanded="false" />
+                <element signature="e#3816#4037#0" expanded="false" />
+                <element signature="e#3943#4029#0" expanded="false" />
+                <element signature="e#4092#4176#0" expanded="false" />
+                <element signature="e#4773#4832#0" expanded="false" />
+                <element signature="e#4841#4876#0" expanded="false" />
+                <element signature="e#4902#4932#0" expanded="false" />
+                <element signature="e#5017#5042#0" expanded="false" />
+                <element signature="e#5141#5180#0" expanded="false" />
+                <element signature="e#5208#5242#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <file leaf-file-name="user.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="static_pages_spec.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/requests/static_pages_spec.rb">
+      <file leaf-file-name="micropost.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/micropost.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_pages_spec.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/requests/user_pages_spec.rb">
+      <file leaf-file-name="static_pages_controller.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/static_pages_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-              <folding>
-                <element signature="e#59#67#0" expanded="false" />
-                <element signature="e#88#1332#0" expanded="false" />
-                <element signature="e#102#1326#0" expanded="false" />
-                <element signature="e#122#151#0" expanded="false" />
-                <element signature="e#172#228#0" expanded="false" />
-                <element signature="e#237#271#0" expanded="false" />
-                <element signature="e#279#315#0" expanded="false" />
-                <element signature="e#345#696#0" expanded="false" />
-                <element signature="e#370#412#0" expanded="false" />
-                <element signature="e#381#410#0" expanded="false" />
-                <element signature="e#434#453#0" expanded="false" />
-                <element signature="e#466#508#0" expanded="false" />
-                <element signature="e#545#686#0" expanded="false" />
-                <element signature="e#586#674#0" expanded="false" />
-                <element signature="e#728#1316#0" expanded="false" />
-                <element signature="e#743#777#0" expanded="false" />
-                <element signature="e#815#1306#0" expanded="false" />
-                <element signature="e#840#870#0" expanded="false" />
-                <element signature="e#888#959#0" expanded="false" />
-                <element signature="e#974#1033#0" expanded="false" />
-                <element signature="e#1087#1222#0" expanded="false" />
-                <element signature="e#1109#1177#0" expanded="false" />
-                <element signature="e#1236#1294#0" expanded="false" />
-                <element signature="e#1360#1872#0" expanded="false" />
-                <element signature="e#1378#1407#0" expanded="false" />
-                <element signature="e#1422#1484#0" expanded="false" />
-                <element signature="e#1499#1561#0" expanded="false" />
-                <element signature="e#1574#1599#0" expanded="false" />
-                <element signature="e#1608#1642#0" expanded="false" />
-                <element signature="e#1650#1682#0" expanded="false" />
-                <element signature="e#1710#1866#0" expanded="false" />
-                <element signature="e#1722#1757#0" expanded="false" />
-                <element signature="e#1767#1802#0" expanded="false" />
-                <element signature="e#1812#1858#0" expanded="false" />
-                <element signature="e#1899#2035#0" expanded="false" />
-                <element signature="e#1913#1934#0" expanded="false" />
-                <element signature="e#1943#1977#0" expanded="false" />
-                <element signature="e#1985#2029#0" expanded="false" />
-                <element signature="e#2062#3176#0" expanded="false" />
-                <element signature="e#2077#2098#0" expanded="false" />
-                <element signature="e#2117#2140#0" expanded="false" />
-                <element signature="e#2182#2308#0" expanded="false" />
-                <element signature="e#2221#2300#0" expanded="false" />
-                <element signature="e#2239#2262#0" expanded="false" />
-                <element signature="e#2348#3170#0" expanded="false" />
-                <element signature="e#2364#2580#0" expanded="false" />
-                <element signature="e#2614#2695#0" expanded="false" />
-                <element signature="e#2632#2655#0" expanded="false" />
-                <element signature="e#2736#3162#0" expanded="false" />
-                <element signature="e#2754#2777#0" expanded="false" />
-                <element signature="e#2797#2840#0" expanded="false" />
-                <element signature="e#2853#2885#0" expanded="false" />
-                <element signature="e#2897#2929#0" expanded="false" />
-                <element signature="e#2941#3009#0" expanded="false" />
-                <element signature="e#3050#3152#0" expanded="false" />
-                <element signature="e#3070#3095#0" expanded="false" />
-                <element signature="e#3109#3140#0" expanded="false" />
-                <element signature="e#3196#4268#0" expanded="false" />
-                <element signature="e#3214#3243#0" expanded="false" />
-                <element signature="e#3298#3360#0" expanded="false" />
-                <element signature="e#3382#3568#0" expanded="false" />
-                <element signature="e#3394#3440#0" expanded="false" />
-                <element signature="e#3450#3484#0" expanded="false" />
-                <element signature="e#3494#3560#0" expanded="false" />
-                <element signature="e#3610#4262#0" expanded="false" />
-                <element signature="e#3635#3649#0" expanded="false" />
-                <element signature="e#3672#3693#0" expanded="false" />
-                <element signature="e#3707#3970#0" expanded="false" />
-                <element signature="e#3981#4012#0" expanded="false" />
-                <element signature="e#4022#4073#0" expanded="false" />
-                <element signature="e#4083#4135#0" expanded="false" />
-                <element signature="e#4150#4194#0" expanded="false" />
-                <element signature="e#4209#4254#0" expanded="false" />
-                <element signature="e#4303#5084#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="0.11368421">
+              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -220,10 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/environments/test.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
-        <option value="$PROJECT_DIR$/app/views/sessions/new.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20150818082711_add_remember_token_to_users.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
@@ -238,14 +182,12 @@
         <option value="$PROJECT_DIR$/db/migrate/20150819100942_create_microposts.rb" />
         <option value="$PROJECT_DIR$/spec/factories.rb" />
         <option value="$PROJECT_DIR$/spec/models/micropost_spec.rb" />
-        <option value="$PROJECT_DIR$/app/models/micropost.rb" />
         <option value="$PROJECT_DIR$/app/helpers/sessions_helper.rb" />
         <option value="$PROJECT_DIR$/app/views/shared/_user_info.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_micropost_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_error_messages.html.erb" />
         <option value="$PROJECT_DIR$/app/views/users/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/users/edit.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/shared/_feed.html.erb" />
         <option value="$PROJECT_DIR$/app/views/microposts/_micropost.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_feed_item.html.erb" />
@@ -254,23 +196,29 @@
         <option value="$PROJECT_DIR$/db/migrate/20150820075307_create_relationships.rb" />
         <option value="$PROJECT_DIR$/spec/models/relationship_spec.rb" />
         <option value="$PROJECT_DIR$/app/models/relationship.rb" />
-        <option value="$PROJECT_DIR$/spec/models/user_spec.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/lib/tasks/sample_data.rake" />
         <option value="$PROJECT_DIR$/app/views/shared/_stats.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_follow_form.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/users/_follow.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/users/_unfollow.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
         <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
-        <option value="$PROJECT_DIR$/spec/requests/user_pages_spec.rb" />
         <option value="$PROJECT_DIR$/app/views/users/show_follow.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/users/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
         <option value="$PROJECT_DIR$/spec/requests/static_pages_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/requests/user_pages_spec.rb" />
         <option value="$PROJECT_DIR$/spec/requests/authentication_pages_spec.rb" />
+        <option value="$PROJECT_DIR$/app/views/users/_follow.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/users/_unfollow.html.erb" />
+        <option value="$PROJECT_DIR$/spec/controllers/relationships_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/relationships_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/relationships/create.js.erb" />
+        <option value="$PROJECT_DIR$/app/views/relationships/destroy.js.erb" />
+        <option value="$PROJECT_DIR$/spec/models/user_spec.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/app/models/micropost.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" />
       </list>
     </option>
   </component>
@@ -390,6 +338,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -461,6 +427,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="relationships" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -756,27 +762,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7010526">
-          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37053087">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7768421">
-          <caret line="41" column="45" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/sessions/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.0">
@@ -863,14 +848,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/micropost.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.511579">
@@ -904,14 +881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-18.0">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/static_pages_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -986,25 +955,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="179" column="0" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
-          <folding>
-            <element signature="e#3681#3768#0" expanded="false" />
-            <element signature="e#3816#4037#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="73" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/requests/micropost_pages_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8336842">
@@ -1025,14 +975,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11368421">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/_unfollow.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.058504876">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -1085,14 +1027,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/_follow.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.058504876">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21451788">
@@ -1109,10 +1043,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spec/requests/static_pages_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03368421">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3031579">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spec/requests/user_pages_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.24210526">
+          <caret line="59" column="36" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
           <folding>
             <element signature="e#59#67#0" expanded="false" />
             <element signature="e#88#1332#0" expanded="false" />
@@ -1137,81 +1087,53 @@
             <element signature="e#1087#1222#0" expanded="false" />
             <element signature="e#1109#1177#0" expanded="false" />
             <element signature="e#1236#1294#0" expanded="false" />
-            <element signature="e#1360#1872#0" expanded="false" />
-            <element signature="e#1378#1407#0" expanded="false" />
-            <element signature="e#1422#1484#0" expanded="false" />
-            <element signature="e#1499#1561#0" expanded="false" />
-            <element signature="e#1574#1599#0" expanded="false" />
-            <element signature="e#1608#1642#0" expanded="false" />
-            <element signature="e#1650#1682#0" expanded="false" />
-            <element signature="e#1710#1866#0" expanded="false" />
-            <element signature="e#1722#1757#0" expanded="false" />
-            <element signature="e#1767#1802#0" expanded="false" />
-            <element signature="e#1812#1858#0" expanded="false" />
-            <element signature="e#1899#2035#0" expanded="false" />
-            <element signature="e#1913#1934#0" expanded="false" />
-            <element signature="e#1943#1977#0" expanded="false" />
-            <element signature="e#1985#2029#0" expanded="false" />
-            <element signature="e#2062#3176#0" expanded="false" />
-            <element signature="e#2077#2098#0" expanded="false" />
-            <element signature="e#2117#2140#0" expanded="false" />
-            <element signature="e#2182#2308#0" expanded="false" />
-            <element signature="e#2221#2300#0" expanded="false" />
-            <element signature="e#2239#2262#0" expanded="false" />
-            <element signature="e#2348#3170#0" expanded="false" />
-            <element signature="e#2364#2580#0" expanded="false" />
-            <element signature="e#2614#2695#0" expanded="false" />
-            <element signature="e#2632#2655#0" expanded="false" />
-            <element signature="e#2736#3162#0" expanded="false" />
-            <element signature="e#2754#2777#0" expanded="false" />
-            <element signature="e#2797#2840#0" expanded="false" />
-            <element signature="e#2853#2885#0" expanded="false" />
-            <element signature="e#2897#2929#0" expanded="false" />
-            <element signature="e#2941#3009#0" expanded="false" />
-            <element signature="e#3050#3152#0" expanded="false" />
-            <element signature="e#3070#3095#0" expanded="false" />
-            <element signature="e#3109#3140#0" expanded="false" />
-            <element signature="e#3196#4268#0" expanded="false" />
-            <element signature="e#3214#3243#0" expanded="false" />
-            <element signature="e#3298#3360#0" expanded="false" />
-            <element signature="e#3382#3568#0" expanded="false" />
-            <element signature="e#3394#3440#0" expanded="false" />
-            <element signature="e#3450#3484#0" expanded="false" />
-            <element signature="e#3494#3560#0" expanded="false" />
-            <element signature="e#3610#4262#0" expanded="false" />
-            <element signature="e#3635#3649#0" expanded="false" />
-            <element signature="e#3672#3693#0" expanded="false" />
-            <element signature="e#3707#3970#0" expanded="false" />
-            <element signature="e#3981#4012#0" expanded="false" />
-            <element signature="e#4022#4073#0" expanded="false" />
-            <element signature="e#4083#4135#0" expanded="false" />
-            <element signature="e#4150#4194#0" expanded="false" />
-            <element signature="e#4209#4254#0" expanded="false" />
-            <element signature="e#4303#5084#0" expanded="false" />
+            <element signature="e#3365#3501#0" expanded="false" />
+            <element signature="e#3379#3400#0" expanded="false" />
+            <element signature="e#3409#3443#0" expanded="false" />
+            <element signature="e#3451#3495#0" expanded="false" />
+            <element signature="e#3528#4642#0" expanded="false" />
+            <element signature="e#3543#3564#0" expanded="false" />
+            <element signature="e#3583#3606#0" expanded="false" />
+            <element signature="e#3648#3774#0" expanded="false" />
+            <element signature="e#3687#3766#0" expanded="false" />
+            <element signature="e#3705#3728#0" expanded="false" />
+            <element signature="e#3814#4636#0" expanded="false" />
+            <element signature="e#3830#4046#0" expanded="false" />
+            <element signature="e#4080#4161#0" expanded="false" />
+            <element signature="e#4098#4121#0" expanded="false" />
+            <element signature="e#4202#4628#0" expanded="false" />
+            <element signature="e#4220#4243#0" expanded="false" />
+            <element signature="e#4263#4306#0" expanded="false" />
+            <element signature="e#4319#4351#0" expanded="false" />
+            <element signature="e#4363#4395#0" expanded="false" />
+            <element signature="e#4407#4475#0" expanded="false" />
+            <element signature="e#4516#4618#0" expanded="false" />
+            <element signature="e#4536#4561#0" expanded="false" />
+            <element signature="e#4575#4606#0" expanded="false" />
+            <element signature="e#4662#5734#0" expanded="false" />
+            <element signature="e#4680#4709#0" expanded="false" />
+            <element signature="e#4764#4826#0" expanded="false" />
+            <element signature="e#4848#5034#0" expanded="false" />
+            <element signature="e#4860#4906#0" expanded="false" />
+            <element signature="e#4916#4950#0" expanded="false" />
+            <element signature="e#4960#5026#0" expanded="false" />
+            <element signature="e#5076#5728#0" expanded="false" />
+            <element signature="e#5101#5115#0" expanded="false" />
+            <element signature="e#5138#5159#0" expanded="false" />
+            <element signature="e#5173#5436#0" expanded="false" />
+            <element signature="e#5447#5478#0" expanded="false" />
+            <element signature="e#5488#5539#0" expanded="false" />
+            <element signature="e#5549#5601#0" expanded="false" />
+            <element signature="e#5616#5660#0" expanded="false" />
+            <element signature="e#5675#5720#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/requests/static_pages_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/requests/authentication_pages_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7768421">
-          <caret line="113" column="8" selection-start-line="113" selection-start-column="8" selection-end-line="113" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="112" column="11" selection-start-line="112" selection-start-column="11" selection-end-line="112" selection-end-column="11" />
           <folding>
             <element signature="e#98#222#0" expanded="false" />
             <element signature="e#112#133#0" expanded="false" />
@@ -1246,11 +1168,171 @@
             <element signature="e#1771#1952#0" expanded="false" />
             <element signature="e#1990#2130#0" expanded="false" />
             <element signature="e#2050#2118#0" expanded="false" />
-            <element signature="e#3430#3475#0" expanded="false" />
-            <element signature="e#3558#3679#0" expanded="false" />
-            <element signature="e#3576#3607#0" expanded="false" />
-            <element signature="e#3624#3669#0" expanded="false" />
+            <element signature="e#2229#2337#0" expanded="false" />
+            <element signature="e#2390#2514#0" expanded="false" />
+            <element signature="e#2559#2657#0" expanded="false" />
+            <element signature="e#2706#2819#0" expanded="false" />
+            <element signature="e#2868#2981#0" expanded="false" />
+            <element signature="e#3477#4132#0" expanded="false" />
+            <element signature="e#3875#3920#0" expanded="false" />
+            <element signature="e#4003#4124#0" expanded="false" />
+            <element signature="e#4021#4052#0" expanded="false" />
+            <element signature="e#4069#4114#0" expanded="false" />
+            <element signature="e#4167#4522#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/_follow.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0780065">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/_unfollow.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0780065">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/relationships_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11368421">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/relationships_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/relationships/create.js.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3333334">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/relationships/destroy.js.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.019501625">
+          <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="164" column="7" selection-start-line="164" selection-start-column="7" selection-end-line="164" selection-end-column="7" />
+          <folding>
+            <element signature="e#50#181#0" expanded="false" />
+            <element signature="e#193#202#0" expanded="false" />
+            <element signature="e#209#237#0" expanded="false" />
+            <element signature="e#243#272#0" expanded="false" />
+            <element signature="e#278#317#0" expanded="false" />
+            <element signature="e#323#355#0" expanded="false" />
+            <element signature="e#361#406#0" expanded="false" />
+            <element signature="e#412#450#0" expanded="false" />
+            <element signature="e#456#492#0" expanded="false" />
+            <element signature="e#498#527#0" expanded="false" />
+            <element signature="e#533#567#0" expanded="false" />
+            <element signature="e#573#601#0" expanded="false" />
+            <element signature="e#607#644#0" expanded="false" />
+            <element signature="e#650#688#0" expanded="false" />
+            <element signature="e#694#739#0" expanded="false" />
+            <element signature="e#745#778#0" expanded="false" />
+            <element signature="e#784#818#0" expanded="false" />
+            <element signature="e#824#855#0" expanded="false" />
+            <element signature="e#863#882#0" expanded="false" />
+            <element signature="e#888#910#0" expanded="false" />
+            <element signature="e#960#1064#0" expanded="false" />
+            <element signature="e#974#1030#0" expanded="false" />
+            <element signature="e#1039#1058#0" expanded="false" />
+            <element signature="e#1104#1175#0" expanded="false" />
+            <element signature="e#1118#1138#0" expanded="false" />
+            <element signature="e#1146#1169#0" expanded="false" />
+            <element signature="e#1216#1288#0" expanded="false" />
+            <element signature="e#1230#1251#0" expanded="false" />
+            <element signature="e#1259#1282#0" expanded="false" />
+            <element signature="e#1325#1401#0" expanded="false" />
+            <element signature="e#1339#1364#0" expanded="false" />
+            <element signature="e#1372#1395#0" expanded="false" />
+            <element signature="e#1445#1741#0" expanded="false" />
+            <element signature="e#1475#1735#0" expanded="false" />
+            <element signature="e#1621#1727#0" expanded="false" />
+            <element signature="e#1783#2025#0" expanded="false" />
+            <element signature="e#1811#2019#0" expanded="false" />
+            <element signature="e#1913#2011#0" expanded="false" />
+            <element signature="e#2076#2263#0" expanded="false" />
+            <element signature="e#2090#2225#0" expanded="false" />
+            <element signature="e#2234#2257#0" expanded="false" />
+            <element signature="e#2307#2412#0" expanded="false" />
+            <element signature="e#2321#2375#0" expanded="false" />
+            <element signature="e#2383#2406#0" expanded="false" />
+            <element signature="e#2468#2563#0" expanded="false" />
+            <element signature="e#2482#2526#0" expanded="false" />
+            <element signature="e#2534#2557#0" expanded="false" />
+            <element signature="e#2611#2718#0" expanded="false" />
+            <element signature="e#2625#2683#0" expanded="false" />
+            <element signature="e#2691#2712#0" expanded="false" />
+            <element signature="e#2769#3215#0" expanded="false" />
+            <element signature="e#2783#2797#0" expanded="false" />
+            <element signature="e#2819#2855#0" expanded="false" />
+            <element signature="e#2892#2965#0" expanded="false" />
+            <element signature="e#2904#2957#0" expanded="false" />
+            <element signature="e#3004#3209#0" expanded="false" />
+            <element signature="e#3045#3083#0" expanded="false" />
+            <element signature="e#3094#3137#0" expanded="false" />
+            <element signature="e#3152#3201#0" expanded="false" />
+            <element signature="e#3245#3328#0" expanded="false" />
+            <element signature="e#3259#3273#0" expanded="false" />
+            <element signature="e#3299#3322#0" expanded="false" />
+            <element signature="e#3681#3768#0" expanded="false" />
+            <element signature="e#3816#4037#0" expanded="false" />
+            <element signature="e#3943#4029#0" expanded="false" />
+            <element signature="e#4092#4176#0" expanded="false" />
+            <element signature="e#4773#4832#0" expanded="false" />
+            <element signature="e#4841#4876#0" expanded="false" />
+            <element signature="e#4902#4932#0" expanded="false" />
+            <element signature="e#5017#5042#0" expanded="false" />
+            <element signature="e#5141#5180#0" expanded="false" />
+            <element signature="e#5208#5242#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/micropost.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/static_pages_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11368421">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
